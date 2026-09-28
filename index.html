@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A personal student website for ICT251 Web Technologies Activity 2.">
+  <title>My Student Portfolio | ICT251 Activity 2</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="brand-mark">✦</span>
+        <span>My<span>Web</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <nav id="mainNav">
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#learning">Learning Plan</a>
+        <a href="#photos">Photos</a>
+        <a href="#media">Media</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">ICT251 • WEB TECHNOLOGIES • ACTIVITY 2</p>
+          <h1>Hello, I'm <span class="gradient-text">Muleya Mulambo 202513222</span> building my web journey.</h1>
+          <p class="hero-text">Welcome to my personal website. Explore my interests, learning plan, photos, media and a few things I am working on as I develop my web skills.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#about">Explore my site</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar">ME</div>
+          <div>
+            <p class="card-label">CURRENT FOCUS</p>
+            <h3>Learning Web Development</h3>
+            <p>HTML • CSS • JavaScript</p>
+          </div>
+          <div class="mini-stats">
+            <span><strong>3+</strong> Skills</span>
+            <span><strong>∞</strong> Ideas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section id="about" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div>
+            <p>I am a student interested in technology, creativity and practical problem solving. I am learning how websites are structured, styled and made interactive using HTML, CSS and JavaScript. My goal is to keep improving by building small projects, experimenting with new ideas and learning from mistakes. This website is part of my ICT251 Web Technologies Activity 2 and gives me a place to document my interests and progress.</p>
+            <a class="text-link" href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener">Learn web development on MDN →</a>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">⌘</span>
+            <h3>My web toolkit</h3>
+            <p>HTML for structure, CSS for visual design and JavaScript for interaction.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobbies" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">02 / INTERESTS</p>
+          <h2>My Hobbies & Activities</h2>
+          <p>Add your own hobbies below. Submitted activities appear instantly on the page.</p>
+        </div>
+        <div class="hobby-layout">
+          <div class="hobby-list-wrap">
+            <ul id="hobbyList" class="hobby-list">
+              <li><span>01</span><div><strong>Coding</strong><small>Building and experimenting with technology.</small></div></li>
+              <li><span>02</span><div><strong>Listening to music</strong><small>Relaxing and discovering new sounds.</small></div></li>
+              <li><span>03</span><div><strong>Learning new skills</strong><small>Practising ideas that improve my future.</small></div></li>
+            </ul>
+          </div>
+          <form id="hobbyForm" class="glass-form">
+            <h3>Add an activity</h3>
+            <label for="hobbyName">Hobby / activity</label>
+            <input id="hobbyName" name="hobbyName" type="text" placeholder="e.g. Photography" required>
+            <label for="hobbyDescription">Short description</label>
+            <textarea id="hobbyDescription" name="hobbyDescription" rows="3" placeholder="What do you enjoy about it?" required></textarea>
+            <button class="btn primary" type="submit">＋ Add to my hobbies</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="learning" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">03 / PROGRESS</p>
+          <h2>My Learning Plan</h2>
+        </div>
+        <ol class="steps">
+          <li><span>01</span><div><strong>Strengthen HTML</strong><p>Practise semantic structure, forms, links, tables and accessible content.</p></div></li>
+          <li><span>02</span><div><strong>Master CSS</strong><p>Build responsive layouts, use the box model and create consistent visual designs.</p></div></li>
+          <li><span>03</span><div><strong>Practise JavaScript</strong><p>Learn DOM manipulation, events and interactive browser features.</p></div></li>
+          <li><span>04</span><div><strong>Build projects</strong><p>Combine the skills into useful websites and test them on both desktop and mobile.</p></div></li>
+        </ol>
+
+        <div class="table-wrap">
+          <table>
+            <caption>Weekly Web Learning Plan</caption>
+            <thead><tr><th>Day</th><th>Topic</th><th>Practice task</th></tr></thead>
+            <tbody>
+              <tr><td>Monday</td><td>HTML</td><td>Build a semantic page structure.</td></tr>
+              <tr><td>Wednesday</td><td>CSS</td><td>Create a responsive layout and style components.</td></tr>
+              <tr><td>Friday</td><td>JavaScript</td><td>Add an interactive hobby/activity feature.</td></tr>
+              <tr><td>Saturday</td><td>Project testing</td><td>Test links, media, forms and mobile layout.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="photos" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">04 / GALLERY</p>
+          <h2>My Photos</h2>
+          <p>Replace these placeholders with at least three photos you took or are allowed to share.</p>
+        </div>
+        <div class="gallery">
+          <figure class="photo-card">
+            <div class="photo-placeholder">PHOTO 01</div>
+            <figcaption><strong>My study space</strong><span>Add your own photo here: <code>images/photo1.jpg</code></span></figcaption>
+          </figure>
+          <figure class="photo-card">
+            <div class="photo-placeholder">PHOTO 02</div>
+            <figcaption><strong>A project or activity</strong><span>Add your own photo here: <code>images/photo2.jpg</code></span></figcaption>
+          </figure>
+          <figure class="photo-card">
+            <div class="photo-placeholder">PHOTO 03</div>
+            <figcaption><strong>Something I enjoy</strong><span>Add your own photo here: <code>images/photo3.jpg</code></span></figcaption>
+          </figure>
+        </div>
+
+        <div class="upload-panel">
+          <h3>Preview an image from your device</h3>
+          <p>This browser-only upload preview does not send your file anywhere.</p>
+          <label class="upload-btn" for="imageUpload">＋ Choose image</label>
+          <input id="imageUpload" type="file" accept="image/*" hidden>
+          <div id="imagePreview" class="upload-preview" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="media" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">05 / MEDIA</p>
+          <h2>My Media</h2>
+          <p>Add your short introduction video and audio recording to the <code>videos</code> folder.</p>
+        </div>
+        <div class="media-grid">
+          <article class="media-card">
+            <div class="media-icon">▶</div>
+            <h3>Introduction Video</h3>
+            <video controls preload="metadata" class="media-player">
+              <source src="videos/intro.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <p><strong>Written summary:</strong> Introduce yourself, state your programme and mention one web skill you hope to learn.</p>
+          </article>
+          <article class="media-card">
+            <div class="media-icon">♪</div>
+            <h3>Hobby / Voice Clip</h3>
+            <audio controls preload="metadata" class="audio-player">
+              <source src="videos/voice.mp3" type="audio/mpeg">
+              Your browser does not support HTML audio.
+            </audio>
+            <p>Use a short recording to describe one of your hobbies or explain why you are studying web technologies.</p>
+          </article>
+        </div>
+
+        <div class="upload-panel">
+          <h3>Local media preview</h3>
+          <p>Choose an audio or video file to preview it in this browser. For submission, place your final recordings inside <code>videos/</code>.</p>
+          <input id="mediaUpload" type="file" accept="audio/*,video/*">
+          <div id="mediaPreview" class="upload-preview" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">06 / CONTACT</p>
+          <h2>Let's Connect</h2>
+          <p>This is a browser demonstration form. It does not send data to a server.</p>
+        </div>
+        <form id="contactForm" class="contact-form" action="#" novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="name">Name *</label>
+              <input id="name" name="name" type="text" required placeholder="Your name">
+            </div>
+            <div>
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.com">
+            </div>
+          </div>
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option>Web development</option>
+            <option>My hobbies</option>
+            <option>My projects</option>
+            <option>General message</option>
+          </select>
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="6" required placeholder="Write your message..."></textarea>
+          <button class="btn primary" type="submit">Send demonstration message</button>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>MyWeb</strong><p>ICT251 Web Technologies • Activity 2</p></div>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
